@@ -1,18 +1,155 @@
 <html>
 <head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="style.css"/>
+  <link rel="stylesheet" href="./styles/style.css"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="js/scripts.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Roboto:400,700,900&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container-fluid ">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="#logo">
-          <img src="./logo.png"/>
+    <div class="headerRow">
+    <div class="row logoRow">
+      <div class="col-sm-4">
+        <div class="logo">
+          <img src="./img/logowhite.png"/>
         </div>
       </div>
+      <div class="col-sm-8">
+        <div class="menu">
+        </div>
+      </div>
+    </div>
+    <div class="row headerText">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <h1 id="myName">Cory Cross</h2>
+          <h4 id="myDescription">Web Developer dedicated to quality with a passion for building cool things and learning new skills.</h4>
+      </div>
+    </div>
+  </div>
+      <div class="row aboutSection">
+        <div class="col-sm-6 aboutMe">
+          <img class="myPic" src="./img/Cory.jpg"/>
+          <h5>Thats Me!</h5>
+          <hr>
+          <p>Take a look at my resume to see a full list of my work experience</p>
+          <a target="_blank" href="./Cory_Cross_Resume_0826.PDF"><button class="resumeButton">View My Resume</button></a>
+        </div>
+      <div class="col-sm-6 experienceText">
+        <h2>Experience With</h2>
+        <hr>
+        <div class="row">
+        <div class="col-sm-6">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>PHP</li>
+          <li>JAVA</li>
+          <li>C</li>
+          <li>C++</li>
+        </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul>
+          <li>SQL</li>
+          <li>JQuery</li>
+          <li>GitHub</li>
+          <li>Gimp</li>
+          <li>Phpstorm</li>
+          <li>Eclipse</li>
+          <li>Invision</li>
+        </ul>
+        </div>
+        </div>
+      </div>
+      </div>
+      <div class="row recentWork">
+        <div class="col-sm-12">
+          <h1 class="ctr">Recent Work</h2>
+            <p class="ctr">Heres a few of my recent projects hover over for more information</p>
+        </div>
+      </div>
+      <div class="row portfolioSection">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+      <div class="row">
+        <div class="col-sm-4 portfolioItem" style="background-image:url(./img/mers.png);">
+          <div class="portSlideIn" style="background-color: rgb(25,100,183, .8);">
+            <div class="portInfo">
+            <h3>Mers Goodwill</h3>
+            <p>Custom wordpress site for the Missouri branch of the Goodwill</p>
+            <a target="_blank" href="https://mersgoodwill.org"><button class="portButton">Visit Site</button></a>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-4 portfolioItem" style="background-image:url(./img/stmike.png);">
+          <div class="portSlideIn" style="background-color: rgb(210,35,43, .8);">
+            <div class="portInfo">
+            <h3>St.Michaels School of Clayton</h3>
+            <p>Custom site for a private elementary school inculding areas for teachers to post assignments and information for their students.</p>
+            <a target="_blank" href="https://stmichaelschool.org/"><button class="portButton">Visit Site</button></a>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-4 portfolioItem" style="background-image:url(./img/rds.png);">
+          <div class="portSlideIn" style="background-color: rgb(0, 83, 101, .8);">
+            <div class="portInfo">
+            <h3>Residential Design Services</h3>
+            <p>Ecommerce platform for builders to buy plans for housing. Including a custom search using Advanced Custom Fields.</p>
+            <a target="_blank" href="https://justsmallhouseplans.com"><button class="portButton">Visit Site</button></a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 portfolioItem" style="background-image:url(./img/nonprofit.png);">
+          <div class="portSlideIn" style="background-color: rgb(59,167,167, .8);">
+            <div class="portInfo">
+            <h3>STL Non-Profit News</h3>
+            <p>Custom blog of information about local non-profit organizations using ajax to dynamically filter posts.</p>
+            <a target="_blank" href="https://stlnonprofitnews.com"><button class="portButton">Visit Site</button></a>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-4 portfolioItem" style="background-image:url(./img/hoist.png);">
+          <div class="portSlideIn" style="background-color: rgb(25,100,183, .8);">
+            <div class="portInfo">
+            <h3>McCaughlin Hoist</h3>
+            <p>Custom site for a local crane supplier.</p>
+            <a target="_blank" href="https://hoist.beanstalkweb.com"><button class="portButton">Visit Site</button></a>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-4 portfolioItem" style="background-image:url(./img/barron.png);">
+          <div class="portSlideIn" style="background-color: rgb(114,57,130, .8);">
+            <div class="portInfo">
+            <h3>Barron Gymnastics</h3>
+            <p>Custom site for a local gym for childrens gymnastics.</p>
+            <a target="_blank" href="https://barrongym.beanstalkweb.com"><button class="portButton">Visit Site</button></a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="contactSection">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="ctr">Contact</h2>
+      </div>
+    </div>
+    <div class="row contactInfo">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-4">
+          <h6>636-699-2811</h6>
+      </div>
+      <div class="col-sm-4">
+          <h6>corycross14@gmail.com</h6>
+      </div>
+    </div>
+</div>
     </div>
   </div>
 </body>
